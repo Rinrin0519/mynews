@@ -1,29 +1,14 @@
-<?php
+  
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-namespace App\Http\Controllers\Admin;
-
-use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-
-class ProfileController extends Controller
-{
-    public function add()
-    {
-    return view('admin.profile.create');
-    }
-
-public function create()
-    {
-    return redirect('admin/profile/create');
-    }
-
-public function edit()
-    {
-    return view('admin.profile.edit');
-    } 
-
-public function update()
-    {
-    return redirect('admin/profile/edit');
-    }
-}
+        <title>MyNews</title>
+    </head>
+    <body>
+        <h1>ここはprofile/create</h1>
+        </body>
+</html>
