@@ -1,4 +1,3 @@
-  
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,6 +8,6 @@
         <title>MyNews</title>
     </head>
     <body>
-        <h1>ここはprofile/create</h1>
-        </body>
+        <h1>ここはprofile/edit</h1>      
+    </body>
 </html>
