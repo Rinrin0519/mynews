@@ -1,4 +1,4 @@
-@@ -1,51 +1,75 @@
+
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
     <head>
